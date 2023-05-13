@@ -17,13 +17,13 @@ The GM can change the markers used to tag tokens by supplying a comma separated 
 
 >!aTMN green,brown
 
-will make the first 10 markers green and the next 10 brown the next time the !aTMN command is run.  This command does not actively mark tokens, it changes the markers used the next time the !aTMN command is run.
+will make the first 10 markers green and the next 10 brown the next time the `!aTMN` command is run.  This command does not actively mark tokens, it changes the markers used the next time the `!aTMN` command is run.
  
 The GM can list as many markers as he wants:
  
 >!aTMN green,brown,red 
 
-will mark up to 30 tokens, first green, then brown, then red the next time the !aTMN command is run.
+will mark up to 30 tokens, first green, then brown, then red the next time the `!aTMN` command is run.
 
 ![20 Tokens](aTMN_02.JPG)
 
@@ -31,13 +31,14 @@ To remove the markers, selected the desired tokens and execute:
 
 >!aTMNX
 
-Note the X at the end of the command.  There is no limit to the number of tokens that can have their markers removed with one command.  Note that if you apply pink and purple markers, then change the markers by using something like !aTMN green,brown then the next !aTMNX command will remove only green and brown markers.
-If you have a bunch of tokens marked, you can selected more tokens and mark them as well.  There will be duplicate markers in this case.  Applying new markers does not automatically remove old markers.  I’ve done this (only rarely) when there is a group in front of the PCs and another group behind.
+Note the X at the end of the command.  There is no limit to the number of tokens that can have their markers removed with one command.  Note that if you apply pink and purple markers, then change the markers by using something like `!aTMN green,brown` then the next `!aTMNX` command will remove only green and brown markers.
+
+If you have a bunch of tokens marked, you can select more tokens and mark them as well.  There will be duplicate markers in this case.  Applying new markers does not automatically remove old markers.  I’ve done this (only rarely) when there is a group in front of the PCs and another group behind.
 
 In summary, out of the box:
 
-!aTMN - For the first ten selected tokens, this applies a pink marker and puts a numeral from 0-9 in them.  The next ten tokens get a purple marker with a numeral.  Tokens after the 20th are ignored.
+`!aTMN ` - For the first ten selected tokens, this applies a pink marker and puts a numeral from 0-9 in them.  The next ten tokens get a purple marker with a numeral.  Tokens after the 20th are ignored.
 
-!aTMNX – Removes all markers currently used by aTMN (by default pink and purple) from all selected tokens.
+`!aTMNX` – Removes all markers currently used by aTMN (by default pink and purple) from all selected tokens.
 
-!aTMN marker1,marker2,…,markerN – (e.g. red,green,yellow,purple) sets the markers aTMN uses to marker1,marker2,…,markerN.  The number of tokens that can be uniquely marked is 10 times the number of markers specified.
+`!aTMN marker1,marker2,…,markerN` – (e.g. red,green,yellow,purple) sets the markers aTMN uses to marker1,marker2,…,markerN.  The number of tokens that can be uniquely marked is 10 times the number of markers specified.
