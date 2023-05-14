@@ -1,7 +1,7 @@
 # aTMN
 ## Apply Token Marker Number script for Roll20
 
-This script is designed to be an easy way to mark a large amount of tokens so that players and GMs can easily refer to them in combat.  It is a poor man’s version of the The Aaron’s TokenNameNumber script.  It’s much less flexible but usually is all I need.  It applies a token marker with a numeral to selected tokens.  It can also remove the applied token markers.
+This script is designed to be an easy way to mark a large amount of tokens so that players and GMs can easily refer to them in combat.  There are more powerful and more flexible scripts that do a similar thing (e.g. The Aaron’s TokenNameNumber script) but usually this script's functionality is all I need.  It applies a token marker with a numeral to selected tokens.  It can also remove the applied token markers.
 
 The GM selects one or more tokens and then executes:
 
@@ -33,7 +33,7 @@ To remove the markers, selected the desired tokens and execute:
 
 Note the X at the end of the command.  There is no limit to the number of tokens that can have their markers removed with one command.  Note that if you apply pink and purple markers, then change the markers by using something like `!aTMN green,brown` then the next `!aTMNX` command will remove only green and brown markers.
 
-If you have a bunch of tokens marked, you can select more tokens and mark them as well.  There will be duplicate markers in this case.  Applying new markers does not automatically remove old markers.  I’ve done this (only rarely) when there is a group in front of the PCs and another group behind.
+If you have a bunch of tokens marked, you can select more tokens and mark them as well.  There will be duplicate markers in this case.  Applying new markers does not automatically remove old markers.  This duplicate marking is not a feature, but I’ve used this when there is a group in front of the PCs and another group behind and the chance for confusion is minimal.
 
 In summary, out of the box:
 
