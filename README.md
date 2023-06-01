@@ -11,7 +11,7 @@ By default, the first 20 tokens selected are marked.  The first ten tokens are m
 
 Tokens that are controlled by someone, or represent a character that is controlled by someone, are not marked, and do not count towards the limit of 20.  This means you don’t have to avoid PCs when selecting tokens, and as long as important NPCs have the GM’s name in the “Can Be Edited & Controlled By” field, they won’t be marked either.
 
-![20 Tokens](aTMN_01.JPG)
+![20 Tokens](ReadmeFiles/aTMN_01.JPG)
 
 The GM can change the markers used to tag tokens by supplying a comma separated list of marker names.  For example:
 
@@ -25,7 +25,7 @@ The GM can list as many markers as he wants:
 
 will mark up to 30 tokens, first green, then brown, then red the next time the `!aTMN` command is run.
 
-![20 Tokens](aTMN_02.JPG)
+![20 Tokens](ReadmeFiles/aTMN_02.JPG)
 
 To remove the markers, selected the desired tokens and execute:
 
