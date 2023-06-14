@@ -22,7 +22,7 @@ The GM can change the markers used to tag tokens by supplying a comma separated 
 
 >!aTMN green,brown
 
-will make the first 10 markers green and the next 10 brown the next time the `!aTMN` command is run.  *This command does not actively mark tokens,* it changes the markers used the next time the `!aTMN` command is run.
+will make the first 10 markers green and the next 10 brown the next time the `!aTMN` command is run.  *This command does not actively mark tokens,* it changes the markers used the next time the `!aTMN` command is run.  Don't put any spaces in this list; the parsing is finicky.
  
 The GM can list as many markers as he wants:
  
