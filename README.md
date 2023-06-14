@@ -1,6 +1,9 @@
 # aTMN
 ## Apply Token Marker Number script for Roll20
 
+Source code at:
+`https://github.com/TheKrakenCoder/aTMN`
+
 This script is designed to be an easy way to mark a large amount of tokens so that players and GMs can easily refer to them in combat.  There are more powerful and more flexible scripts that do a similar thing (e.g. The Aaron’s TokenNameNumber script) but usually this script's functionality is all I need.  Plus, it gave me an excuse to write my first script.  The script applies a token marker with a numeral to selected tokens.  It can also remove the applied token markers.
 
 ### Applying Markers
