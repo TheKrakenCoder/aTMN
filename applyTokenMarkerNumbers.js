@@ -68,13 +68,6 @@ on("ready", function () {
                   let color = colors[Math.floor(icnt/10)];
                   let number = icnt%10;
                   let colNum = color + ':' + number;
-                  //log("colNum = " + colNum);
-                        // The following uses token-mod to set the marker and number.  I'm leaving
-                  // it in because I may need somehting similar sometime and the --ids and --api-as
-                  // took me a long time to figure out.
-                  //let myCom = '!token-mod {{--ids ' + obj._id + ' --api-as ' + msg.playerid + 
-                  //            ' --set statusmarkers|' + colNum + '}}';
-                  //sendChat('', myCom);
                   token.set(`status_${color}`, number);
                }
             }  // if graphic token
