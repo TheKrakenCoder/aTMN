@@ -3,6 +3,7 @@
 
 This script is designed to be an easy way to mark a large amount of tokens so that players and GMs can easily refer to them in combat.  There are more powerful and more flexible scripts that do a similar thing (e.g. The Aaron’s TokenNameNumber script) but usually this script's functionality is all I need.  Plus, it gave me an excuse to write my first script.  The script applies a token marker with a numeral to selected tokens.  It can also remove the applied token markers.
 
+### Applying Markers
 The GM selects one or more tokens and then executes:
 
 >!aTMN
@@ -13,6 +14,7 @@ Tokens that are controlled by someone, or represent a character that is controll
 
 ![20 Tokens](ReadmeFiles/aTMN_01.JPG)
 
+### Changing Markers
 The GM can change the markers used to tag tokens by supplying a comma separated list of marker names.  For example:
 
 >!aTMN green,brown
@@ -27,6 +29,7 @@ will mark up to 30 tokens, first green, then brown, then red the next time the `
 
 ![20 Tokens](ReadmeFiles/aTMN_02.JPG)
 
+### Removing Markers
 To remove the markers, selected the desired tokens and execute:
 
 >!aTMNX
@@ -35,6 +38,7 @@ Note the X at the end of the command.  There is no limit to the number of tokens
 
 If you have a bunch of tokens marked, you can select more tokens and mark them as well.  There will be duplicate markers in this case.  Applying new markers does not automatically remove old markers.  This duplicate marking is not a feature, but I’ve used this when there is a group in front of the PCs and another group behind and the chance for confusion is minimal.
 
+### Summary
 In summary, out of the box:
 
 `!aTMN ` - For the first ten selected tokens, this applies a pink marker and puts a numeral from 0-9 in them.  The next ten tokens get a purple marker with a numeral.  Tokens after the 20th are ignored.
